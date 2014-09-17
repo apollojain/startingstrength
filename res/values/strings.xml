@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name" translatable="false">Starting Strength</string>
+    <string name="hello_world" translatable="false">Hello world!</string>
+    <string name="action_settings" translatable="false">Settings</string>
+    <string name="title_activity_workout" translatable="false">Workout</string>
+    <string name="title_activity_programming" translatable="false">Programming Your Workout</string>
+    <string name="programming" translatable="false">Programming</string>
+    <string name="phase1" translatable="false">Workout Phase One</string>
+    <string name="phase2" translatable="false">Workout Phase Two</string>
+    <string name="phase3" translatable="false">Workout Phase Three</string>
+    <string name="_3x5_squat" translatable="false">3x5 Squat</string>
+    <string name="_id_button2" translatable="false">\@+id/button2</string>
+    <string name="_id_button6" translatable="false">\@+id/button6</string>
+    <string name="_id_textview2" translatable="false">\@+id/textView2</string>
+    <string name="_id_button4" translatable="false">\@+id/button4</string>
+    <string name="_3x5_press" translatable="false">3x5 Press</string>
+    <string name="_1x5_deadlift" translatable="false">1x5 Deadlift</string>
+    <string name="_5x3_power_clean" translatable="false">5x3 Power Clean</string>
+    <string name="workout_a" translatable="false">Workout A</string>
+    <string name="workout_b" translatable="false">Workout B</string>
+    <string name="title_activity_nutrition" translatable="false">Nutrition</string>
+    <string name="supplements" translatable="false">Supplements</string>
+    <string name="overweight" translatable="false">Overweight</string>
+    <string name="underweight" translatable="false">Underweight</string>
+    <string name="athletic" translatable="false">Athletic</string>
+    <string name="title_activity_weight" translatable="false">Progress</string>
+    <string name="Add_New" translatable="false">Add New</string>
+   <string name="edit" translatable="false">Edit Weight</string>
+   <string name="delete" translatable="false">Delete Weight</string>
+   <string name="title_activity_display_weight" translatable="false">Display Weight</string>
+    
+    <string name="date" translatable="false">Date</string>
+    <string name="squat" translatable="false">Squat</string>
+    <string name="bench" translatable="false">Bench Press</string>
+    <string name="deadlift" translatable="false">Deadlift</string>
+    <string name="press" translatable="false">Overhead Press</string>
+	<string name="clean" translatable="false">Power Clean</string>
+	<string name="extensions" translatable="false">Back Extensions</string>
+	<string name="pullchinups" translatable="false">Pull-ups/Chin-ups</string>
+	<string name="save" translatable="false">Save</string>
+	
+	<string name="deleteWeight" translatable="false">Are you sure, you want to delete it.</string>
+   <string name="yes" translatable="false">Yes</string>
+   <string name="no" translatable="false">No</string>
+
+</resources>

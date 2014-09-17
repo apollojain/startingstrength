@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#FFBB33">
+
+  <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        >
+
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Overweight"
+        android:layout_marginTop="23dp"
+        android:textSize="30sp" 
+        android:layout_marginBottom="10dp"/>
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Clean up your diet. This means no junk food like potato chips, cookies, ice cream, or soda."
+        android:textSize="15sp" 
+        android:layout_marginBottom="10dp"/>
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Eat every 2 hours. It doesn't need to be a lot, but make sure you have a good 20-40g of protein in each meal, and make sure you eat some complex carbs and some fats with each of those meals. Don't stuff yourself, but eat good solid food or if need be, drink a healthy protein shake"
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"/>
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; If you can manage to eat cleanly for a month straight, while taking in sufficient protein, carbs and healthy fats, you will add muscle at a rate that will shoot your metabolism through the roof. Just by eating clean, your body will become very efficient at burning bodyfat, and you won't need to diet or do an excess of cardio in order to burn bodyfat. Just eat healthy, lift like your life depends on it, and do some light cardio for your health, and the bodyfat will melt away."
+        android:textSize="15sp"
+        android:layout_marginBottom="10dp"/>
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Remember: it is much easier to lose body fat after you have gained a bit of muscle. Focus on building muscle first."
+        android:textSize="15sp" 
+        android:layout_marginBottom="23dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

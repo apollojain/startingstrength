@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#fa6a6a"
+    android:paddingLeft="@dimen/leftpadding" >
+
+    
+  	<LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" 
+        >
+
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="23dp"
+        android:gravity="center"
+        android:text="Workout Programming"
+        android:textSize="30sp" />
+        
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="23dp"
+        android:gravity="left"
+        android:text="Progression"
+        android:textSize="20sp" />
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; For the first month of the program, do Phase One."
+        android:textSize="15sp" />
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; After that, do Phase Two, in which you will add Power Cleans. Do this for a month as well."
+        android:textSize="15sp" />
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Then, do Phase Three, in which you will add pull ups, chin ups, and back extensions."
+        android:textSize="15sp" 
+        android:layout_marginBottom="18dp"/>
+        
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="left"
+        android:text="Scheduling"
+        android:textSize="20sp" />
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Week One: Monday/Wednesday/Friday - A/B/A"
+        android:textSize="15sp" />
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Week Two: Monday/Wednesday/Friday - B/A/B"
+        android:textSize="15sp" />
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Week Three: Monday/Wednesday/Friday - A/B/A"
+        android:textSize="15sp" />
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; So on and so forth. Remember: workouts don't necessarily have to be on Monday/Wednesday/Friday. They can be on any three non-consecutive days of the week."
+        android:textSize="15sp" 
+        android:layout_marginBottom="23dp"/>
+        
+    </LinearLayout>
+
+</ScrollView>

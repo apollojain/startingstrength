@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="#99CC00">
+
+  <LinearLayout
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" 
+        >
+
+        <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="Underweight"
+        android:layout_marginTop="23dp"
+        android:textSize="30sp" 
+        android:layout_marginBottom="10dp"/>
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Eat like a madman. This may even mean eating 3500-4000 calories a day. In fact, Mark Rippetoe even recommended that those who are underweight should drink a gallon of milk a day. Even the occasional cheeseburger is all right, as long as you are eating as much as possible. You should not, however, eat a bunch of empty calories, such as cookies, ice cream, chocolate, or chips. Eat things with nutritional value."
+        android:textSize="15sp" 
+        android:layout_marginBottom="10dp"/>
+        
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="&#8226; Eat as frequently as possible and eat as many dead animals as possible. Try to get yourself some 97% ground beef and make yourself some hamburger helper. Remember: it's all about getting as many calories as possible."
+        android:textSize="15sp"
+        android:layout_marginBottom="23dp"/>
+        
+    </LinearLayout>
+
+</ScrollView>

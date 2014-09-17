@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" 
+    android:background="@drawable/background">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Workout"
+        android:onClick="strengthView" 
+        android:layout_marginTop="20dp"
+        android:background="#d3d3d3"/>
+    
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nutrition" 
+        android:onClick="nutritionView"
+        android:layout_marginTop="20dp"
+        android:background="#d3d3d3"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#d3d3d3"
+        android:layout_marginTop="20dp"
+        android:onClick="progressView"
+        android:text="Progress" />
+
+</LinearLayout>
